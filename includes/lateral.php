@@ -27,6 +27,7 @@
 	<div id="login" class="bloque">
 		<h3>Identificate</h3>
 		
+	<!--alerta de usuario no identificado-->
 		<?php if(isset($_SESSION['error_login'])): ?>
 			<div class="alerta alerta-error">
 				<?=$_SESSION['error_login'];?>
