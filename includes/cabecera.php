@@ -23,6 +23,8 @@
 					<li>
 						<a href="index.php">Inicio</a>
 					</li>
+
+					<!--Genera las categorias en el menu-->
 					<?php 
 						$categorias = conseguirCategorias($db);
 						if(!empty($categorias)):

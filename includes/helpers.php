@@ -30,6 +30,7 @@ function borrarErrores(){
 	return $borrado;
 }
 
+//busca las categorias creadas y las almacena
 function conseguirCategorias($conexion){
 	$sql = "SELECT * FROM categorias ORDER BY id ASC;";
 	$categorias = mysqli_query($conexion, $sql);
